@@ -1,9 +1,14 @@
-import React from 'react';
+import React from 'react'
+
+import './global.css'
+
+import Routes from './routes'
 
 function App() {
+
   return (
-    <h1>Be The Hero !</h1>
+    <Routes />
   )
 }
 
-export default App;
+export default App
